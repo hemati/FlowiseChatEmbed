@@ -54,14 +54,14 @@ export const Badge = (props: Props) => {
     }}>Powered by
       <a
         ref={liteBadge}
-        href={'https://langchain.space'}
+        href={'https://langflux.space'}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ "font-weight": 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> LangChain.Space</span>
+        <span> LangFlux.Space</span>
       </a>
     </span>
   )
